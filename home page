@@ -42,7 +42,7 @@ body {
 /* Change color on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color: black;
+  color: #333;
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -126,7 +126,85 @@ body {
       <h2>WELCOME</h2>
       <h5>Places to visit & things to do, March 15, 2022</h5>
       <div></div>
-      <img src= "https://en.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_233/vue-sur-les-toits-de-la-tour-saint-jacques-%7C-740x380-%7C-©-elodie-gutbrod-créatividie/21581411-1-fre-FR/Vue-sur-les-toits-de-la-tour-Saint-Jacques-%7C-740x380-%7C-©-Elodie-Gutbrod-Créatividie.jpg" width="600px">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/BlankMap-World-v5.png" width="600px" 
+  
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+ 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p.solid {border-style: solid;}
+</style>
+
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>
+  
+</body>
+</html>
       
     </div>
      </div>
@@ -134,7 +212,6 @@ body {
     <div class="card">
       <h2>About Me</h2>
       <div>
-      <img src="IMG_0662.jpeg" width="200px">
       <p>Dear Reader,</p>
       <p>Welcome! My name is Clare Rossomondo. I have been traveling around the world since the age of one. I am the daughter of diplomats and get to experience amazing opprotunities and adventures. I'm so excited to share all of the diffrent adventures and places I've traveled, along with some tips on places to visit.</p>
     </div>
@@ -162,27 +239,26 @@ a:hover, a:active {
 </head>
 <body>
 
-<a href="default.asp" target="_blank">Jordan</a>
+<a href="file:///Users/clarerossomondo/Documents/GitHub/crossomondo.github.io/jordan2.html" target="_blank">Jordan</a>
 
 </body>
 </html>
 
-<a href="default.asp" target="_blank">France</a>
+<a href="file:///Users/clarerossomondo/Documents/GitHub/crossomondo.github.io/france.html" target="_blank">France</a>
 
 </body>
 </html>
 
-<a href="default.asp" target="_blank">England</a>
+<a href="file:///Users/clarerossomondo/Documents/GitHub/crossomondo.github.io/england.html" target="_blank">England</a>
 
 </body>
 </html>
 
-<a href="default.asp" target="_blank">Romania</a>
+<a href="file:///Users/clarerossomondo/Documents/GitHub/crossomondo.github.io/romania.html" target="_blank">Romania</a>
 
 </body>
 </html>
 
-<a href="default.asp" target="_blank">Czech Republic</a>
 
 </body>
 </html> 
@@ -200,7 +276,4 @@ a:hover, a:active {
 
 </body>
 </html>
-
-
-
 
